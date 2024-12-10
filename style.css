@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    color: #FAECD8;
+    background-color: #0D1C20;
+    overflow: hidden;
+  }
+  
+  #welcome-page, 
+  #main-page, 
+  #letter-page, 
+  #emotion-page, 
+  #games-page, 
+  #sick-page, 
+  #worry-page {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #welcome-page {
+    display: flex;
+  }
+  
